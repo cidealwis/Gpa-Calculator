@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="@color/white"
+    tools:context=".SecondScreen">
+
+    <Button
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/displayData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show details"
+        android:textSize="20dp"
+        android:backgroundTint="#03A9F4"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/textViewData"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:scrollbars="vertical"
+        android:maxLines="100"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="Gpa :"
+        android:layout_marginTop="30dp"
+        android:id="@+id/gpa"/>
+
+</LinearLayout>
